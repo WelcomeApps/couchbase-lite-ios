@@ -5667,6 +5667,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27FFFF4E1C973FB5001A70FC /* LiteServ_Debug.xcconfig */;
 			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/ @executable_path/../Frameworks @executable_path/../../../Library/Frameworks @executable_path/Frameworks";
 			};
 			name = Debug;
 		};
@@ -5674,6 +5675,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27FFFF4F1C973FB5001A70FC /* LiteServ_Release.xcconfig */;
 			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/ @executable_path/../Frameworks @executable_path/../../../Library/Frameworks @executable_path/Frameworks";
 			};
 			name = Release;
 		};
